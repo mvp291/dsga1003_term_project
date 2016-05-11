@@ -1,0 +1,17 @@
+Lasso
+"{'normalize': True, 'alpha': 0.001}": [37.681744721517866, 38.91965033497008]
+
+DecisionTreeRegressor
+"{'min_samples_split': 2, 'max_depth': 11, 'min_samples_leaf': 1}": [10.199938866234513, 21.18278781908872]
+
+DecisionTreeClassifier
+"{'min_samples_split': 100, 'max_depth': 7, 'min_samples_leaf': 1}": [16.996235294117646, 15.9896]
+
+RandomForestRegressor
+"{'n_estimators': 50, 'max_leaf_nodes': None, 'max_features': 'sqrt'}": [6.401195294117766, 24.247423999999985]
+
+RandomForestClassifier
+"{'n_estimators': 100, 'max_leaf_nodes': None, 'max_features': 'sqrt'}": [0.0, 10.9728]
+
+GradientBoostingRegressor
+"{'n_estimators': 120, 'loss': 'lad', 'subsample': 1, 'max_features': None, 'max_leaf_nodes': 9}": [22.980740562468032, 23.691980585082746]
